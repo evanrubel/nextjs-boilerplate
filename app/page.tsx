@@ -15,7 +15,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Profile />
       {/* TODO: Justify left */}
-      <h3 className="mt-4 text-2xl">Good {getTimeOfDayString()}!</h3>
+      {/* <h3 className="mt-4 text-2xl">Good {getTimeOfDayString()}!</h3> */}
       <h1 className="mt-4 text-2xl font-bold">I study</h1>
       <ul className="list-disc pl-4">
         <li className="mb-2">
